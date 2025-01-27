@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements - BABMA Municipal Assembly</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1><a href="index.html">BABMA</a></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" aria-label="Toggle Theme">
+                        <span class="theme-toggle-icon">🌓</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="page-header">
+            <h1>Announcements</h1>
+            <p>Stay updated with the latest news and events from BABMA Municipal Assembly</p>
+        </section>
+
+        <section class="announcements-page">
+            <div class="announcements-filter">
+                <select id="announcement-category">
+                    <option value="all">All Categories</option>
+                    <option value="public">Public Notices</option>
+                    <option value="events">Events</option>
+                    <option value="emergency">Emergency Updates</option>
+                </select>
+            </div>
+
+            <div class="announcements-list">
+                <!-- Announcements will be dynamically loaded here -->
+            </div>
+
+            <div class="announcements-pagination">
+                <button id="load-more">Load More Announcements</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@babma.gov</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: BABMA Municipal Building</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 BABMA Municipal Assembly. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
